@@ -84,7 +84,7 @@
         secret (fn [k]
                  (some-> (get ctx k) (.invoke)))
         ctx (assoc ctx :biff/secret secret)]
-    (println "inside let in use-aero-config in oi")
+    (println "inside let in use-aero-config in ee")
     (println (str "env: " env))
     (println (str "ctx: " ctx))
     (println (str "cookie-secret: " (secret :biff.middleware/cookie-secret)))

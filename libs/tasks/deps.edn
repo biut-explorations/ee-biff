@@ -1,8 +1,8 @@
 {:deps {com.biffweb/config            {:git/url "https://github.com/biut-explorations/ee-biff"
-                                       :git/sha "471c2ceec73c7dff0e0653274c94f76d9ceef73a"
+                                       :git/sha "59f0b7c17225eef84d6c0865034d399cdf5cb03d"
                                        :deps/root "libs/config"}
         com.biffweb/task-runner       {:git/url "https://github.com/biut-explorations/ee-biff"
-                                       :git/sha "471c2ceec73c7dff0e0653274c94f76d9ceef73a"
+                                       :git/sha "59f0b7c17225eef84d6c0865034d399cdf5cb03d"
                                        :deps/root "libs/task-runner"}
         babashka/fs                   {:mvn/version "0.5.20"}
         babashka/process              {:mvn/version "0.5.21"}

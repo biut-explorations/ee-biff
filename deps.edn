@@ -23,9 +23,9 @@
         ring/ring-defaults             {:mvn/version "0.3.4"}
         rum/rum                        {:mvn/version "0.12.11"
                                         :exclusions [cljsjs/react cljsjs/react-dom]}
-        com.biffweb/config             {:git/url "https://github.com/biut-explorations/ee-biff"
-                                        :git/sha "566b1b5c87872f5827bec6057f76d163a47b75b9"
-                                        :deps/root "libs/config"}
+       ;;  com.biffweb/config             {:git/url "https://github.com/biut-explorations/ee-biff"
+       ;;                                  :git/sha "835b1e21438f7d4b8479cd5cb358d00f3c20c20b"
+       ;;                                  :deps/root "libs/config"}
         ;; deprecated
         hawk/hawk                      {:mvn/version "0.2.11"}}
  :aliases {:dev {:extra-paths ["test"]
